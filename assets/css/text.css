@@ -1,0 +1,33 @@
+@font-face {
+	font-family: 'Homestead-Inline';
+	src: url('fonts/Homestead-Inline.eot?#iefix') format('embedded-opentype'), 
+	     url('fonts/Homestead-Inline.woff') format('woff'), 
+	     url('fonts/Homestead-Inline.ttf')  format('truetype'),
+	     url('fonts/Homestead-Inline.svg#Homestead-Inline') format('svg');
+}
+h1, h2, h3, h4, p { margin:0 0 10px; padding:0; line-height:120%;	font-style: normal;	font-weight: normal;	font-variant: normal; }
+.title{ font-family:"Homestead-Inline"; text-shadow:2px 2px 5px #000; }
+body, a, textarea {
+	color: #333;
+	font-size: 12px;
+	font-style: normal;
+	font-weight: normal;
+	font-family: "Helvetica-Neue", sans-serif;
+}
+h1, h1 a { font-size: 30px; }
+h2, h2 a { font-size: 14px; }
+h3, h3 a{ font-size: 12px; }	
+h4 { font-size: 11px; }
+h5 { font-size: 9px; }
+p {	font-size: 12px; }
+label {font-size: 23px; display: block;}
+
+/* Size */
+.contact-box input, .contact-box textarea{ font-size:18px; }
+.font23{ font-size:23px; }
+.title{ font-size:60px; }
+
+/* Color */
+.title, .bgorange-trans *, .contact-box p { color:#FFF; }
+
+.red{color: #990000;}
