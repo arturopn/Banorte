@@ -32,33 +32,55 @@
             </div>
     	</div>
     </div>
-    <div id="contenido">
-        <div class="bgtrans contentregistro">
+     <div id="contenido">
+        <div class="bgtrans contentregistro margin20l">
         <h1 class="red">Bienvenido</h1>
-        <div class="separador margin20t"></div>
+        <div class="separador margin20t margin43b"></div>
         <div class="clearfix">
-            <div class="floatL width50">
+            <div class="floatL width50 relative">
         <label class="biglabel">Nombres</label>
-        <input type="text" class="input" name="nombre" id="nombre">
+        <input type="text" class="input width85 margin20b margin20t" name="nombre" id="nombre">
+        <label class="biglabel">Usuario</label>
+        <input type="text" class="input width85 margin20b margin20t error" name="nombre" id="nombre">
+        <label class="biglabel">Asigna tu contraseña</label>
+        <input type="text" class="input width85 margin5b margin20t " name="contra" id="contra">
+         <input type="text" class="input width85" name="confirmarcontra" id="confirmarcontra">
+
+        <p style="position:absolute; bottom:-70px;">Todos los campos son obligatorios</p>
     </div>
     <div class="floatL width50">
-        <label class="biglabel">Nombres</label>
-        <input type="text" class="input" name="nombre" id="nombre">
+        <label class="biglabel">Apellidos</label>
+        <input type="text" class="input width85 margin20b margin20t" name="nombre" id="nombre">
+     
+      <div class="clearfix">
+            <div class="floatL">
+        <label class="biglabel">Fotografia</label>
+        <a href="index.html" class="btn width60 bggray margin20t"><strong class="line40 ">BUSCAR</strong></a>
+        <p class="margin5b">Máximo 2mb</p>
+    </div>
+    <img src="assets/img/photos/foto.gif" id="foto" class="floatL margin20l error"/>
+        </div>
+        <label>Escribe los caracteres</label>
+        <img src="assets/img/misc/captcha.gif" class="margin20t margin5b"/>
+        <input type="text" name="captcha" class="input width85" />
+        
+        <a href="index.html" class="btn width40 bgred margin5t "><strong class="line40 ">REGISTRARSE</strong></a>
+        
     </div>
         </div>
         </div>
     </div>
     <div id="footer">
-    	<div class="info-footer">
-    		<div class="copyright">
-        		<p>2012 Grupo Financiero Banorte. Derechos reservados</p>
-        	</div>
-        	<div class="terminos">
-        		<p>Términos legales</p>
-        	</div>
-        	<div class="aviso-priva">
-        		<p>Aviso de Privacidad</p>
-        	</div>
+        <div class="info-footer">
+            <div class="copyright">
+                <p>2012 Grupo Financiero Banorte. Derechos reservados</p>
+            </div>
+            <div class="terminos">
+                <p>Términos legales</p>
+            </div>
+            <div class="aviso-priva">
+                <p>Aviso de Privacidad</p>
+            </div>
         </div>
     </div>
 </div>
@@ -67,6 +89,7 @@
         <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.9.0.min.js"><\/script>')</script>
         <script src="js/plugins.js"></script>
         <script src="js/main.js"></script>
+        <script src="assets/css/styles.css"></script>
 
         <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
         <script>

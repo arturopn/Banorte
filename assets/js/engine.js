@@ -21,4 +21,15 @@ $(document).ready(function() {
 		});
 	}
 
+
+$('#new_user').submit(function(event){
+    $('.required').each(function(){
+        if(!$.trim($(this).val()))
+        {
+            $(this).addClass('emptyField');
+            event.preventDefault();
+        }
+    });
+});
+
 });
