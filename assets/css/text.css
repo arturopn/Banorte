@@ -23,6 +23,7 @@ p {	font-size: 12px; }
 label {font-size: 23px; display: block;}
 
 .line40{ line-height: 40px;}
+.line64{ line-height: 60px;}
 
 /* Size */
 .contact-box input, .contact-box textarea{ font-size:18px; }

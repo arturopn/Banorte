@@ -21,7 +21,7 @@ body {
 }
 #encabezado{
 	background-image:url(../img/varios/barra.png);
-	width:1280px;
+	width:100%;
 	height:90px;
 	margin:auto;
 }
@@ -40,16 +40,7 @@ body {
 .login{
 	float:right;
 }
-#contenido{
-	width:1000px;
-	height:655px;
-	background-image:url(../img/varios/mainbg.png);
-	background-repeat:no-repeat;
-	float:left;
-	position:relative;
-	margin-left:50%;
-	left:-500px;
-}
+
 .info-footer{
 	width:1000px;
 	height:30px;
@@ -76,7 +67,7 @@ body {
 #footer{
 	background-image:url(../img/varios/barra_down.png);
 	background-repeat:repeat-x;
-	width:1280px;
+	width:100%;
 	height:40px;
 	float:left;
 }
