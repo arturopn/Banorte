@@ -14,6 +14,9 @@
 
         <link rel="stylesheet" href="assets/css/normalize.css">
         <link href="assets/css/styles.css" rel="stylesheet" type="text/css" />
+          <link rel="stylesheet" type="text/css" media="all" href="fancybox/jquery.fancybox.css">
+  <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+  <script type="text/javascript" src="fancybox/jquery.fancybox.js?v=2.0.6"></script>
         <script src="js/vendor/modernizr-2.6.2.min.js"></script>
     </head>
     <body>
@@ -63,7 +66,12 @@
         <img src="assets/img/misc/captcha.gif" class="margin20t margin5b"/>
         <input type="text" name="captcha" class="input width85" />
         
-        <a href="index.html" class="btn width50 floatR margin40r bgred margin20t "><strong class="line40 ">REGISTRARSE</strong></a>
+        <a href="#box" class="btn modalbox width50 floatR margin40r bgred margin20t "><strong class="line40 ">REGISTRARSE</strong></a>
+
+        <div id="box">
+        <div class="floatL padding30"><p style="font-size:30px;">Bienvenido Juan Antonio, </br> tu cuenta ah sido activada<p></div>
+        <div class="floatL padding30"> <img src="assets/img/icons/check.png"/> </div>  
+        </div>
         
     </div>
         </div>
@@ -84,14 +92,20 @@
     </div>
 </div>
 
-        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js"></script>
+       
         <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.9.0.min.js"><\/script>')</script>
         <script src="js/plugins.js"></script>
         <script src="js/main.js"></script>
         <script src="assets/css/styles.css"></script>
 
+
         <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
         <script>
+       $(document).ready(function() {
+        $(".modalbox").fancybox({ padding: [0,0,15,15] });
+    
+    });
+        
            /* var _gaq=[['_setAccount','UA-XXXXX-X'],['_trackPageview']];
             (function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];
             g.src=('https:'==location.protocol?'//ssl':'//www')+'.google-analytics.com/ga.js';
