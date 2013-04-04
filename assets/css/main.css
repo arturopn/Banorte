@@ -337,6 +337,9 @@ padding: 0 10px;
 
 div#box{display: none;}
 
+div.fotobg{ background: url(../img/bg/fotobg.png); width: 323px; height: 422px; z-index: 9999px; position: absolute; top: 0; left: 540px;}
+.fotologin{cursor: pointer;}
+
 .whiteback{ background: #fff;}
 
 textarea.participa { resize:none; width: 509px; border:1px #A3A3A3 solid; height: 40px; background:#fff url(../img/icons/participa.png) no-repeat; background-position: 15px 20px; padding-left: 50px; padding-right: 120px; padding-top: 20px; font-size: 20px;}

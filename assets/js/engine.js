@@ -1,5 +1,7 @@
 $(document).ready(function() {
 
+	$('div.fotobg').hide();
+
 	//fix html5 placeholder attribute for ie7 & ie8
 	if (jQuery.browser.msie && jQuery.browser.version.substr(0,1) < 9) { // ie7&ie8
 		jQuery('input[placeholder], textarea[placeholder]').each(function(){          
@@ -30,6 +32,11 @@ $('#new_user').submit(function(event){
             event.preventDefault();
         }
     });
+});
+
+
+$('.fotologin').click({
+   $('div.fotobg').show(400);
 });
 
 });
