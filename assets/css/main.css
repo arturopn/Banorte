@@ -3,6 +3,11 @@ body {
 	text-align:center;
 	margin:0;
 	padding:0;
+	font-size: 1em;
+    line-height: 1.4;
+	background-image:url(../img/bg/bg.png);
+	background-color:##E9E9E9;
+	font-family:"Myriad Pro", arial, helvetica, sans-serif;
 }
 .main {
 	text-align:left;
@@ -15,6 +20,11 @@ body {
 #nav{
 }
 #footer{
+	background-image:url(../img/lines/barra_down.png);
+	background-repeat:repeat-x;
+	width:100%;
+	height:40px;
+	float:left;
 }
 #content{	display: block;	clear: both; }
 
@@ -204,8 +214,55 @@ ul{	margin:0;	padding:0; list-style:none; }
 
 /*			- Site Layout -			*/
 
+
+#encabezado{
+	background-image:url(../img/lines/barra_top.png);
+	width:100%;
+	height:90px;
+	margin:auto;
+}
+#barra-top{
+	width:1000px;
+	height:87px;
+	float:left;
+	position:relative;
+	margin-left:50%;
+	left:-500px;
+}
+.logo{
+	padding:10px;
+	float:left;
+}
+.login{
+	float:right;
+}
+
+.info-footer{
+	width:1000px;
+	height:30px;
+	float:left;
+	position:relative;
+	margin-left:50%;
+	left:-500px;
+}
+.copyright{
+	float:left;
+	width:400px;
+	height:30px;
+	font-size:12px;
+	color:#111;
+}
+.terminos,.aviso-priva{
+	float:right;
+	width:150px;
+	height:30px;
+	font-size:12px;
+	color:#580600;
+}
+
+
 .bgtrans{ background: url(../img/bg/trans.png);}
-.contentregistro{ width: 543px; padding: 20px; text-align: left; border:solid 2px #8B8B8B;}
+.contentregistro{ width: 563px; height:582px; padding: 20px; text-align: left; border:solid 2px #8B8B8B;}
 
 .separador{ background:#CCCCCC; height: 1px;}
 
@@ -257,12 +314,12 @@ padding: 0 10px;
 
 #contenido{
 	width:1000px;
-	height:655px;
-	background-image:url(../img/photos/bgregistrate.gif);
+	height:631px;
+	background-image:url(../img/photos/bgregistrate.png);
 	background-repeat:no-repeat;
 	float:left;
 	position:relative;
-	margin-left:55%;
+	margin-left:50%;
 	left:-500px;
 }
 
