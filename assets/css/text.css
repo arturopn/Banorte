@@ -38,3 +38,7 @@ label {font-size: 23px; display: block;}
      border: 2px solid red;
 }
 #footer p{margin: 1em 1em 1em 1em;}
+
+.btn.bgred{ font-size: 24px; font-style: normal;
+font-weight: normal !important;
+font-variant: normal;}

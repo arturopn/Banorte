@@ -334,12 +334,17 @@ padding: 0 10px;
 	margin-left:50%;
 	left:-500px;
 	padding: 25px;
+	z-index: -1;
 }
 
 div#box{display: none;}
 
-div.fotobg{ background: url(../img/bg/fotobg.png); width: 323px; height: 422px; z-index: 9999px; position: absolute; top: 0; left: 540px;}
-.fotologin{cursor: pointer;}
+div.fotobg{ background: url(../img/bg/fotobg.png) no-repeat;  width: 323px; max-width: 323px; height: 452px; z-index: 1; position: absolute; top: 0; left: 615px;}
+
+
+.fotobg label{ text-align: left; padding-left: 33px;}
+div.fotobg h1{ width: 253px; padding: 90px 30px 0; font-size: 20px; text-align: left;}
+.fotologin{cursor: pointer; z-index: 22; position: relative;}
 
 .whiteback{ background: #fff;}
 
